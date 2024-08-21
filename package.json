@@ -1,6 +1,7 @@
 {
   "name": "sorting-visualizer",
   "version": "0.1.0",
+  "homepage": "https://hainguyen410.github.io/Sorting-Visualizer-Tutorial/",
   "private": true,
   "dependencies": {
     "react": "^16.10.2",
@@ -8,6 +9,8 @@
     "react-scripts": "3.2.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
